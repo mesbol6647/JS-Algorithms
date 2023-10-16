@@ -46,67 +46,9 @@
 //    buton2Btn.onclick=hesaplaEnglish;
 
 
-/* -------------------------------------------------------------------------- */
-/*                                   1.soru                                   */
-/* -------------------------------------------------------------------------- */
 
-console.log("merhaba");
-let yas= +promt("Yasinizi giriniz");
-let vatandas= confirm("Türkiye Vatandaşımısınız?")
-console.log(vatandas);
-if(yas >= 18  && vatandas) {
-    console.log(`Yaşınız ${yas} oy kullanabilirsiniz`);
-}else{
-    console.log(`Yaşınız ${yas} oy kullanamazsınız `);
-}
-/* -------------------------------------------------------------------------- */
-/*                               ternary çözümü                               */
-/* -------------------------------------------------------------------------- */
 
-yas>=18 && vatandas 
-? console.log(`yaşınız ${yas} ve Türkiye vatandaşınızsınız oy kullanabilirsiniz`)
-:
-console.log(`yaşınız ${yas}` oy kullanamazsınız);
 
-/* -------------------------------------------------------------------------- */
-/*                                   2.Soru                                   */
-/* -------------------------------------------------------------------------- */
-
-function a(){
-    console.log("ben bir void fonksiyonum");
-}
-a();
-
-//! Olay tetiklemek için...
-
- function sum(a,b){
-    return a+b
-}
-const toplam = sum(5,8);
-console.log(toplam);
-//! function declaration...
-
-const sum= (a,b) =>{return a +b;
-};
-const toplam= sum(5,8);
-console.log(toplam);
-//! arrow function
-
-function calFahrenheit(celcius){
-    const hesap= (celcius*9)/5+32
-return hesap;
-}
-console.log(calFahrenheit(30));
-
-// const celcius=calFahrenheit(30);
-// console.log(celcius);
-
-/* -------------------------------------------------------------------------- */
-/*                            Arrow function çözümü                           */
-/* -------------------------------------------------------------------------- */
-const calFahrenheit=(celcius)=> (celcius*9)/5 +32;
-const celcius =calFahrenheit(30);
-console.log(celcius);
 
 
 /* -------------------------------------------------------------------------- */
