@@ -52,4 +52,14 @@ import {
 import {
   twoDigits
 } from "./easy/11_twoDigits.js";
-console.log(twoDigits([555, 901, 899, 1276, 12, 789, 98, 10]));
+// console.log(twoDigits([555, 901, 899, 1276, 12, 789, 98, 10]));
+
+import {
+    sumEqualszero
+  } from "./easy/12_sumEqualszero.js";
+//   console.log(sumEqualszero(7));
+
+import {
+    multiAddsub
+  } from "./easy/13_multiAddsub.js";
+  console.log(multiAddsub(454));
