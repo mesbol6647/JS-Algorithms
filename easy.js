@@ -62,4 +62,14 @@ import {
 import {
     multiAddsub
   } from "./easy/13_multiAddsub.js";
-  console.log(multiAddsub(454));
+//   console.log(multiAddsub(454));
+
+import {
+    delRepsumrest
+  } from "./easy/14_delRepsumrest.js";
+//   console.log(delRepsumrest([-2, 1, -3, 4, -1, 2, 1, -5, 4]));
+
+  import {
+   reverseChange
+  } from "./easy/15_reverseChange.js";
+//   console.log(reverseChange(-231));
