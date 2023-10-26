@@ -14,4 +14,11 @@ import {firstReverse} from "./easy/4_firstReverse.js";
 // console.log(firstReverse("bolat"));
 
 import {findİntersection} from "./easy/5_findİntersection.js";
-console.log(findİntersection(["1, 3, 4, 7, 13", "1, 2, 4, 13, 15"]));
+// console.log(findİntersection(["1, 3, 4, 7, 13", "1, 2, 4, 13, 15"]));
+
+import {questionMark} from "./easy/6_questionMark.js";
+// console.log(questionMark("arrb6???4xxbl5???eee5" ));
+
+
+import {letterChange} from "./easy/7_letterChange.js";
+// console.log(letterChange("Merhabaz" ));
