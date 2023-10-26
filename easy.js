@@ -41,4 +41,15 @@ import {
 import {
     letterCapitalize
 } from "./easy/9_letterCapitalize.js";
-console.log(letterCapitalize("akademilerde saygın resim yapıtlarına,saygın insanları, dini konuları, saray ve saray yaşantılarını.." ));
+// console.log(letterCapitalize("akademilerde saygın resim yapıtlarına,saygın insanları, dini konuları, saray ve saray yaşantılarını.." ));
+
+import {
+    negativeValues
+} from "./easy/10_negativeValues.js";
+// console.log(negativeValues([[4, 3, 2, -1],[3, -2, -1, 6],[5, -4, 0, -1]]));
+
+
+import {
+  twoDigits
+} from "./easy/11_twoDigits.js";
+console.log(twoDigits([555, 901, 899, 1276, 12, 789, 98, 10]));
