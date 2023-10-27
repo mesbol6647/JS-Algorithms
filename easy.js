@@ -73,3 +73,28 @@ import {
    reverseChange
   } from "./easy/15_reverseChange.js";
 //   console.log(reverseChange(-231));
+
+import {
+    reverseChange2
+   } from "./easy/16_reverseChange2.js";
+//    console.log(reverseChange2([2,4,3], [5,6,4]));
+
+   import {
+    mergeFindmed
+   } from "./easy/17_mergeFindmed.js";
+//    console.log(mergeFindmed([5,8], [9,6,4]));
+
+   import {
+    replaceAll
+   } from "./easy/18_replaceAll.js";
+//    console.log(replaceAll("5.5.5.5.5.5"));
+
+import {
+   findPrimefactor
+   } from "./easy/19_findPrimefactor.js";
+//    console.log(findPrimefactor(65));
+
+   import {
+   fibonacci
+    } from "./easy/20_fibonacci.js";
+    console.log(fibonacci(6));
