@@ -132,4 +132,9 @@ import {
  import {
     arithGeo
  } from "./easy/27_arithGeo.js";
- console.log(arithGeo([2, -6, 18, 54]));  
+//  console.log(arithGeo([2, -6, 18, 54]));  
+
+ import {
+    roman
+ } from "./easy/28_roman.js";
+ console.log(roman(3999));  
