@@ -1,3 +1,5 @@
+//! Verilen String bir ifadenin arraye dönüştürülerek ---Harflerin Alfabeye göre dizilmesi--- (sort yöntemiyle ASCII Kod)
+
 export const alphabetSor = (str )=> {
 
 // const arr = str.split("")
@@ -6,6 +8,6 @@ export const alphabetSor = (str )=> {
 
 // return newStr
 
-return str.split("").sort().join("")
+return str.split("").sort().join("") // tek satırla çözümü.........
 
 }

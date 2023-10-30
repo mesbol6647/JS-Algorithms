@@ -102,9 +102,24 @@ import {
 import {
     timeConvert
 } from "./easy/21_timeConvert.js";
-console.log(timeConvert(63));
+// console.log(timeConvert(63));
 
 import {
     alphabetSor
 } from "./easy/22_alphabetSor.js";
-console.log(alphabetSor("selam"));
+// console.log(alphabetSor("selam"));
+
+import {
+    abCheck
+} from "./easy/23_abCheck.js";
+// console.log(abCheck("selam dostum nasılsın "));
+
+import {
+   vowelCount
+} from "./easy/24_vowelCount.js";
+// console.log(vowelCount("selam dostum nasılsın "));
+
+import {
+    wordCount
+ } from "./easy/25_wordCount.js";
+ console.log(wordCount("selam dostum nasılsın "));  
