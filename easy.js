@@ -122,4 +122,14 @@ import {
 import {
     wordCount
  } from "./easy/25_wordCount.js";
- console.log(wordCount("selam dostum nasılsın "));  
+//  console.log(wordCount("selam dostum nasılsın "));  
+
+ import {
+    exOh
+ } from "./easy/26_exOh.js";
+//  console.log(exOh("xxoooooxoxoxoxoxoooxx "));  
+
+ import {
+    arithGeo
+ } from "./easy/27_arithGeo.js";
+ console.log(arithGeo([2, -6, 18, 54]));  
