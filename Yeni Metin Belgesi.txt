@@ -1,0 +1,114 @@
+Arrays in JS
+const isimler = ["Alice", "Bob", "Charlie", "David", "Eve"]
+ismindeki harf sayisi 5 ten fazla olan isimlerin olduğu çıktıyı veren bir Array yazınız
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Tek sayıların karesini
+Çift sayıların küpünü  ayrı ayrı arrayler olarak çıktı veren fonksiyonu yazınız
+
+const names = ["Ali","amy","Danny","Jenny","penny","anthony"]
+ Given an array of strings containing names, filter out the names that start with the letter "A."
+ Given an array of numbers, remove duplicate values using `filter` to create a new array with unique values
+
+const values = [1, 2, 3, 2, "kalem", "silgi", "kalem",2,3]
+const numbers2 = [1, 2,  3,  5, 10]
+   Given an array of numbers, use `forEach` to calculate the sum of the squares of each number
+
+
+
+// arrays iterations questions (forEach, map, filter, reduce)
+​
+​
+// soru 1: bir dizideki sayıların ortalamasını bulan fonksiyonu yazınız? 
+​
+let numbers1 = [1, 2, 3, 45, 65]
+​
+let sum = 0;
+numbers1.forEach(function (e, i, a) {
+  console.log(a[i])
+  sum += e
+});
+console.log(sum / numbers1.length);
+​
+​
+let a = numbers1.reduce((acc, curr, i) => {
+  console.log(i)
+​
+  return acc + curr
+})
+console.log(a / numbers1.length)
+​
+​
+​
+​
+​
+​
+​
+// soru 2: Soru: Bir dizi içerisindeki sayıların karesini alarak her bir sayıyı konsola yazdırın.
+​
+let numbers3 = [1, 2, 3, 4, 5];
+​
+numbers3.forEach(num => {
+  let square = num ** 2;
+  console.log(square);
+}
+);
+​
+​
+// soru 3: Soru: Bir dizi içerisindeki sayıların karesini alarak yeni bir dizi oluşturun. Ardından, bu yeni dizideki çift sayıları filtreleyerek sadece çift sayıları içeren bir başka dizi oluşturun.
+​
+let numbers4 = [1, 2, 3, 4, 5];
+​
+let squareNumbers = numbers4.map(num => num ** 2);
+console.log(squareNumbers);
+​
+let evenNumbers = squareNumbers.filter(num => num % 2 === 0);
+​
+console.log(evenNumbers);
+​
+// soru 4: Soru: Verilen bir diziyi tersine çevirin, ancak yalnızca forEach kullanarak yapın (reverse() kullanmadan).
+​
+let numbers5 = [1, 2, 3, 4, 5];
+​
+let reversedNumbers = [];
+​
+numbers5.forEach(num => {
+  reversedNumbers.unshift(num);
+}
+);
+​
+console.log(reversedNumbers);
+​
+// soru 5: Soru: Bir dizi içindeki metin öğeleri içeren bir dizi verildiğinde, her öğeyi tersine çevirerek yeni bir dizi oluşturun.
+// çıktı : ["tpircSavaJ", "nohtyP", "avaJ", "++C"]
+​
+let words = ["JavaScript", "Python", "Java", "C++"];
+​
+let reversedWords = words.map(word => word.split("").reverse().join(""));
+console.log(reversedWords);
+​
+// soru 6: Soru: Bir dizi içindeki asal sayıları filtreleyerek  yeni bir dizi oluşturun.
+​
+let numbers6 = [1, 2, 3, 8, 21, 23, 41, 44, 53];
+​
+let primeNumbers = numbers6.filter(num => {
+  for (let i = 2; i < num; i++) {
+    if (num % i === 0) return false;
+  }
+  return num > 1;
+}
+);
+​
+console.log(primeNumbers);
+​
+​
+// soru 7: Soru: Bir dizideki sayıların karelerinden çift sayıların iki katlarının toplamını bulun.
+​
+let numbers7 = [1, 2, 3, 4, 5];
+​
+let sumOfEvenSquaredNumbers = numbers7
+  .map(num => num ** 2)
+  .filter(num => num % 2 === 0)
+  .reduce((acc, curr) => acc + curr);
+​
+console.log(sumOfEvenSquaredNumbers);

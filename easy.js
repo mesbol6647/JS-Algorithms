@@ -50,51 +50,61 @@ import {
 
 
 import {
-  twoDigits
+    twoDigits
 } from "./easy/11_twoDigits.js";
 // console.log(twoDigits([555, 901, 899, 1276, 12, 789, 98, 10]));
 
 import {
     sumEqualszero
-  } from "./easy/12_sumEqualszero.js";
+} from "./easy/12_sumEqualszero.js";
 //   console.log(sumEqualszero(7));
 
 import {
     multiAddsub
-  } from "./easy/13_multiAddsub.js";
+} from "./easy/13_multiAddsub.js";
 //   console.log(multiAddsub(454));
 
 import {
     delRepsumrest
-  } from "./easy/14_delRepsumrest.js";
+} from "./easy/14_delRepsumrest.js";
 //   console.log(delRepsumrest([-2, 1, -3, 4, -1, 2, 1, -5, 4]));
 
-  import {
-   reverseChange
-  } from "./easy/15_reverseChange.js";
+import {
+    reverseChange
+} from "./easy/15_reverseChange.js";
 //   console.log(reverseChange(-231));
 
 import {
     reverseChange2
-   } from "./easy/16_reverseChange2.js";
+} from "./easy/16_reverseChange2.js";
 //    console.log(reverseChange2([2,4,3], [5,6,4]));
 
-   import {
+import {
     mergeFindmed
-   } from "./easy/17_mergeFindmed.js";
+} from "./easy/17_mergeFindmed.js";
 //    console.log(mergeFindmed([5,8], [9,6,4]));
 
-   import {
+import {
     replaceAll
-   } from "./easy/18_replaceAll.js";
+} from "./easy/18_replaceAll.js";
 //    console.log(replaceAll("5.5.5.5.5.5"));
 
 import {
-   findPrimefactor
-   } from "./easy/19_findPrimefactor.js";
+    findPrimefactor
+} from "./easy/19_findPrimefactor.js";
 //    console.log(findPrimefactor(65));
 
-   import {
-   fibonacci
-    } from "./easy/20_fibonacci.js";
-    console.log(fibonacci(6));
+import {
+    fibonacci
+} from "./easy/20_fibonacci.js";
+// console.log(fibonacci(6));
+
+import {
+    timeConvert
+} from "./easy/21_timeConvert.js";
+console.log(timeConvert(63));
+
+import {
+    alphabetSor
+} from "./easy/22_alphabetSor.js";
+console.log(alphabetSor("selam"));
