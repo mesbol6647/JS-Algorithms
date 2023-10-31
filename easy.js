@@ -1,3 +1,5 @@
+console.log ("%cmerhaba nasılsın", "color:red;font-size:30px")
+
 import {
     userValidation
 } from "./easy/1_uservalidation.js";
@@ -137,4 +139,23 @@ import {
  import {
     roman
  } from "./easy/28_roman.js";
- console.log(roman(3999));  
+//  console.log(roman(3999));
+
+import {
+    secondGreatLow
+ } from "./easy/29_secondGreatLow.js";
+//  console.log(secondGreatLow([5, 7, 106, 12, 98, 107]));  
+
+ 
+ 
+
+ import {
+    divStringified 
+ } from "./easy/30_divStringified.js";
+//  console.log(divStringified ([5, 7, 106, 12, 98, 107])); 
+
+
+ import {
+    countMinutes 
+ } from "./easy/31_countMinutes.js";
+ console.log(countMinutes ("9:00am-10:00am")); 
