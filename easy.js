@@ -158,4 +158,10 @@ import {
  import {
     countMinutes 
  } from "./easy/31_countMinutes.js";
- console.log(countMinutes ("9:00am-10:00am")); 
+//  console.log(countMinutes ("9:00am-10:00am")); 
+
+
+ import {
+    swapcase
+ } from "./easy/32_swapCase.js";
+ console.log(swapcase("Hello World")); 
