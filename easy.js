@@ -164,4 +164,9 @@ import {
  import {
     swapcase
  } from "./easy/32_swapCase.js";
- console.log(swapcase("Hello World")); 
+//  console.log(swapcase("Hello World")); 
+
+import {
+    thirdGreatest
+ } from "./easy/33_thirdGreatest.js";
+ console.log(thirdGreatest(["hellooo","zworld","aaavvbbefore","all"])); 
