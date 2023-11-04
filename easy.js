@@ -181,3 +181,9 @@ import {
     superInc
  } from "./easy/35_superInc.js";
 //  console.log( superInc([1, 3, 6, 13, 34])); 
+
+
+import {
+    hammingDistance
+ } from "./easy/36_hammingDistance.js";
+ console.log(hammingDistance("karolin", "kathrin")); 
