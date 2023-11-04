@@ -174,4 +174,10 @@ import {
  import {
     overlappingRan
  } from "./easy/34_overlappingRan.js";
- console.log( overlappingRan([4, 10, 2, 6, 8])); 
+//  console.log( overlappingRan([4, 10, 2, 6, 8])); 
+
+
+ import {
+    superInc
+ } from "./easy/35_superInc.js";
+//  console.log( superInc([1, 3, 6, 13, 34])); 
