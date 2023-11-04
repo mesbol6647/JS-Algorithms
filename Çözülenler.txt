@@ -1,2 +1,4 @@
 27-SwapCase 
 29- Third-Greatest
+30- Aynı soru
+35-Overlapping Rangers

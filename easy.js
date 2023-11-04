@@ -169,4 +169,9 @@ import {
 import {
     thirdGreatest
  } from "./easy/33_thirdGreatest.js";
- console.log(thirdGreatest(["hellooo","zworld","aaavvbbefore","all"])); 
+//  console.log(thirdGreatest(["hellooo","zworld","aaavvbbefore","all"])); 
+
+ import {
+    overlappingRan
+ } from "./easy/34_overlappingRan.js";
+ console.log( overlappingRan([4, 10, 2, 6, 8])); 
