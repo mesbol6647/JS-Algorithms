@@ -186,4 +186,9 @@ import {
 import {
     hammingDistance
  } from "./easy/36_hammingDistance.js";
- console.log(hammingDistance("karolin", "kathrin")); 
+//  console.log(hammingDistance("karolin", "kathrin")); 
+
+ import {
+    bitWise
+ } from "./easy/37_bitWise.js";
+ console.log(bitWise(["11000","01110"])); 
